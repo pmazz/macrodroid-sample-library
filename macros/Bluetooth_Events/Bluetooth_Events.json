@@ -1,0 +1,328 @@
+{
+  "localVariables": [
+    {
+      "excludeFromLog": false,
+      "isLocal": true,
+      "m_booleanValue": false,
+      "m_decimalValue": 0.0,
+      "m_intValue": 0,
+      "m_name": "StartTime",
+      "m_stringValue": "2021-03-20 21:24:58",
+      "m_type": 2
+    }
+  ],
+  "m_GUID": -7162109297545853276,
+  "m_actionList": [
+    {
+      "m_booleanInvert": false,
+      "m_darkMode": -1,
+      "m_doubleRandomMax": 0.0,
+      "m_doubleRandomMin": 0.0,
+      "m_falseLabel": "Falso",
+      "m_intExpression": false,
+      "m_intRandom": false,
+      "m_intRandomMax": 0,
+      "m_intRandomMin": 0,
+      "m_intValueDecrement": false,
+      "m_intValueIncrement": false,
+      "m_newBooleanValue": false,
+      "m_newDoubleValue": 0.0,
+      "m_newIntValue": 0,
+      "m_newStringValue": "[year]-[month_digit]-[dayofmonth] [hour]:[minute]:[second]",
+      "m_trueLabel": "Vero",
+      "m_userPrompt": false,
+      "m_userPromptShowCancel": true,
+      "m_userPromptStopAfterCancel": true,
+      "m_variable": {
+        "excludeFromLog": false,
+        "isLocal": true,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "StartTime",
+        "m_stringValue": "",
+        "m_type": 2
+      },
+      "m_SIGUID": -7712067851421692913,
+      "m_classType": "SetVariableAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_SIGUID": -7057122993169235649,
+      "m_classType": "IfConditionAction",
+      "m_constraintList": [
+        {
+          "m_anyDevice": false,
+          "m_btState": 2,
+          "m_deviceAddress": "18:48:CA:E7:D8:EE",
+          "m_deviceName": "My VW 9016",
+          "m_SIGUID": -6419690701785548621,
+          "m_classType": "BluetoothConstraint",
+          "m_constraintList": [],
+          "m_isDisabled": false,
+          "m_isOrCondition": false
+        }
+      ],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "blockNextAction": true,
+      "m_mode": "Auto",
+      "m_SIGUID": -8197935810870978425,
+      "m_classType": "SetModeAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_booleanInvert": false,
+      "m_darkMode": -1,
+      "m_doubleRandomMax": 0.0,
+      "m_doubleRandomMin": 0.0,
+      "m_falseLabel": "False",
+      "m_intExpression": false,
+      "m_intRandom": false,
+      "m_intRandomMax": 0,
+      "m_intRandomMin": 0,
+      "m_intValueDecrement": false,
+      "m_intValueIncrement": false,
+      "m_newBooleanValue": false,
+      "m_newDoubleValue": 0.0,
+      "m_newIntValue": 0,
+      "m_newStringValue": "Connesso con auto",
+      "m_trueLabel": "True",
+      "m_userPrompt": false,
+      "m_userPromptShowCancel": true,
+      "m_userPromptStopAfterCancel": true,
+      "m_variable": {
+        "excludeFromLog": false,
+        "isLocal": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tts-msg",
+        "m_stringValue": "Stà chiamando **************",
+        "m_type": 2
+      },
+      "m_SIGUID": -5033719192709881792,
+      "m_classType": "SetVariableAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_GUID": -7084092671192641301,
+      "m_ignoreConstraints": true,
+      "m_macroName": "TTS - base",
+      "m_useOffStatus": true,
+      "m_userPromptTitle": "Run Macro",
+      "m_waitToComplete": true,
+      "m_SIGUID": -7605131400857286975,
+      "m_classType": "ForceMacroRunAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_applicationName": "Maps",
+      "m_excludeFromRecents": false,
+      "m_packageToLaunch": "com.google.android.apps.maps",
+      "m_startNew": true,
+      "option": 0,
+      "m_SIGUID": -9173070889089700051,
+      "m_classType": "LaunchActivityAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_delayInMilliSeconds": 0,
+      "m_delayInSeconds": 3,
+      "m_useAlarm": false,
+      "m_SIGUID": -7218684515841833631,
+      "m_classType": "PauseAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_applicationName": "Podcast Republic",
+      "m_excludeFromRecents": false,
+      "m_packageToLaunch": "com.itunestoppodcastplayer.app",
+      "m_startNew": true,
+      "option": 0,
+      "m_SIGUID": -4998709444302839833,
+      "m_classType": "LaunchActivityAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_delayInMilliSeconds": 0,
+      "m_delayInSeconds": 3,
+      "m_useAlarm": false,
+      "m_SIGUID": -5624528882060684452,
+      "m_classType": "PauseAction",
+      "m_constraintList": [],
+      "m_isDisabled": true,
+      "m_isOrCondition": false
+    },
+    {
+      "m_applicationNameList": [ "Spotify" ],
+      "m_packageNameList": [ "com.spotify.music" ],
+      "option": 0,
+      "m_SIGUID": -7179858863189985630,
+      "m_classType": "KillBackgroundAppAction",
+      "m_constraintList": [],
+      "m_isDisabled": true,
+      "m_isOrCondition": false
+    },
+    {
+      "m_SIGUID": -8066888164312267554,
+      "m_classType": "EndIfAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_SIGUID": -5312838863906828226,
+      "m_classType": "IfConditionAction",
+      "m_constraintList": [
+        {
+          "m_anyDevice": false,
+          "m_btState": 3,
+          "m_deviceAddress": "18:48:CA:E7:D8:EE",
+          "m_deviceName": "My VW 9016",
+          "m_SIGUID": -5192538592616671147,
+          "m_classType": "BluetoothConstraint",
+          "m_constraintList": [],
+          "m_isDisabled": false,
+          "m_isOrCondition": false
+        }
+      ],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "blockNextAction": true,
+      "m_mode": "Standard",
+      "m_SIGUID": -5533709494291490392,
+      "m_classType": "SetModeAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_booleanInvert": false,
+      "m_darkMode": -1,
+      "m_doubleRandomMax": 0.0,
+      "m_doubleRandomMin": 0.0,
+      "m_falseLabel": "False",
+      "m_intExpression": false,
+      "m_intRandom": false,
+      "m_intRandomMax": 0,
+      "m_intRandomMin": 0,
+      "m_intValueDecrement": false,
+      "m_intValueIncrement": false,
+      "m_newBooleanValue": false,
+      "m_newDoubleValue": 0.0,
+      "m_newIntValue": 0,
+      "m_newStringValue": "Disconnesso da auto",
+      "m_trueLabel": "True",
+      "m_userPrompt": false,
+      "m_userPromptShowCancel": true,
+      "m_userPromptStopAfterCancel": true,
+      "m_variable": {
+        "excludeFromLog": false,
+        "isLocal": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tts-msg",
+        "m_stringValue": "Stà chiamando ************",
+        "m_type": 2
+      },
+      "m_SIGUID": -9050597302993605277,
+      "m_classType": "SetVariableAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_GUID": -7084092671192641301,
+      "m_ignoreConstraints": true,
+      "m_macroName": "TTS - base",
+      "m_useOffStatus": true,
+      "m_userPromptTitle": "Run Macro",
+      "m_waitToComplete": true,
+      "m_SIGUID": -5738761235920786076,
+      "m_classType": "ForceMacroRunAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_applicationNameList": [ "Podcast Republic" ],
+      "m_packageNameList": [ "com.itunestoppodcastplayer.app" ],
+      "option": 0,
+      "m_SIGUID": -7792133871358375557,
+      "m_classType": "KillBackgroundAppAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_applicationNameList": [ "Maps" ],
+      "m_packageNameList": [ "com.google.android.apps.maps" ],
+      "option": 0,
+      "m_SIGUID": -7353808862565263503,
+      "m_classType": "KillBackgroundAppAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_SIGUID": -5621682988220580393,
+      "m_classType": "EndIfAction",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    }
+  ],
+  "m_category": "Auto",
+  "m_constraintList": [],
+  "m_description": "",
+  "m_descriptionOpen": false,
+  "m_enabled": true,
+  "m_excludeLog": false,
+  "m_headingColor": 0,
+  "m_isOrCondition": false,
+  "m_name": "Eventi Bluetooth",
+  "m_triggerList": [
+    {
+      "m_anyDevice": false,
+      "m_btState": 2,
+      "m_deviceAddress": "18:48:CA:E7:D8:EE",
+      "m_deviceName": "My VW 9016",
+      "m_SIGUID": -6656474725437349495,
+      "m_classType": "BluetoothTrigger",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    },
+    {
+      "m_anyDevice": false,
+      "m_btState": 3,
+      "m_deviceAddress": "18:48:CA:E7:D8:EE",
+      "m_deviceName": "My VW 9016",
+      "m_SIGUID": -5348462160455476031,
+      "m_classType": "BluetoothTrigger",
+      "m_constraintList": [],
+      "m_isDisabled": false,
+      "m_isOrCondition": false
+    }
+  ]
+}

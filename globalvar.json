@@ -1,0 +1,35 @@
+{
+    "variables": [
+      {
+        "excludeFromLog": false,
+        "isLocal": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "nfc-tag",
+        "m_stringValue": "garage-door",
+        "m_type": 2
+      },
+      {
+        "excludeFromLog": false,
+        "isLocal": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "tts-msg",
+        "m_stringValue": "Sono le 3",
+        "m_type": 2
+      },
+      {
+        "excludeFromLog": false,
+        "isLocal": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 40,
+        "m_name": "tts-volume",
+        "m_stringValue": "",
+        "m_type": 1
+      }
+    ]
+  }
+  
